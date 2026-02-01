@@ -21,8 +21,8 @@ if __name__ == "__main__":
     while True:
         time.sleep(5)
         counter = counter + 1
-        print("{} sleep 5 sec, wait...")
-        if (counter == 100 ):
+        print("{} sleep 5 sec, wait...".format(counter))
+        if (counter == 10 ):
             break
 
     app.run(host='0.0.0.0', port='8080')
